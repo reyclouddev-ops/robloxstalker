@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Roblox Stalker</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+<div class="logo">
+<h1>🎮 Roblox Stalker</h1>
+<p>Powered by LexCode API</p>
+</div>
+
+<div class="search">
+
+<input
+id="username"
+type="text"
+placeholder="Masukkan Username Roblox">
+
+<button id="searchBtn">
+Cari User
+</button>
+
+</div>
+
+<div id="loading" class="loading hidden">
+
+<div class="loader"></div>
+
+<p>Mengambil data...</p>
+
+</div>
+
+<div id="error" class="error hidden"></div>
+
+<div id="result" class="card hidden">
+
+<div class="cover">
+
+<img
+id="avatar"
+src="https://placehold.co/180x180/png"
+alt="Avatar">
+
+<div>
+
+<h2 id="displayName">-</h2>
+
+<span id="usernameText">@-</span>
+
+<div id="badgeContainer"></div>
+
+</div>
+
+</div>
+
+<div class="grid">
+
+<div class="item">
+<span>ID</span>
+<h3 id="userId">-</h3>
+</div>
+
+<div class="item">
+<span>Friends</span>
+<h3 id="friends">0</h3>
+</div>
+
+<div class="item">
+<span>Followers</span>
+<h3 id="followers">0</h3>
+</div>
+
+<div class="item">
+<span>Following</span>
+<h3 id="following">0</h3>
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Bio</h3>
+
+<p id="description">
+Tidak ada bio.
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Informasi Akun</h3>
+
+<div class="info">
+
+<p>
+<b>Status :</b>
+<span id="status">-</span>
+</p>
+
+<p>
+<b>Lokasi :</b>
+<span id="location">-</span>
+</p>
+
+<p>
+<b>Banned :</b>
+<span id="banned">-</span>
+</p>
+
+<p>
+<b>Dibuat :</b>
+<span id="created">-</span>
+</p>
+
+<p>
+<b>Last Online :</b>
+<span id="lastOnline">-</span>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Made with ❤️ by ReyCloud
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
